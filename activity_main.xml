@@ -113,10 +113,63 @@
 
         </RadioGroup>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Fund experiential unicorn thinker-maker-doer iterate workflow pivot intuitive. "
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:onClick="answerQ3"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:textAppearance="?android:textAppearanceSmall"
+                />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:layout_marginBottom="16dp"/>
+
+        </RadioGroup>
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Finished"/>
+            android:layout_marginTop="16dp"
+            android:onClick="finishBtn"
+            android:text="Finished" />
+
+        <TextView
+            android:id="@+id/results_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
 
     </LinearLayout>
 </ScrollView>
